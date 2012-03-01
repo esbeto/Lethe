@@ -1,0 +1,10 @@
+Lethe:
+ Lethe is a dark theme for the gedit text-editor. It is basically a modified version of the Oblivion Theme by Paolo Borelli
+
+How to use:
+ 1. Download lethe.xml and save it somewhere.
+ 2. Open gedit
+ 3. Go to Edit > Preferences
+ 4. Open the Font & Colors tab
+ 5. Click on the Add... button
+ 6. Open lethe.xml
