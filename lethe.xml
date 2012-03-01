@@ -34,26 +34,15 @@
   <color name="black"                       value="#000000"/>
   <color name="lethe"                       value="#25292B"/>
   <color name="lethe2"                      value="#212426"/>
+  <color name="lethe3"                      value="#161819"/>
   <color name="darkblue"                    value="#2F3F52"/>
 
-  <color name="butter1"                     value="#FFF38F"/>
   <color name="butter2"                     value="#edd400"/>
-  <color name="butter3"                     value="#c4a000"/>
   <color name="chameleon1"                  value="#8FCB6A"/>
-  <color name="chameleon2"                  value="#73d216"/>
   <color name="chameleon3"                  value="#4e9a06"/>
-  <color name="orange1"                     value="#fcaf3e"/>
   <color name="orange2"                     value="#FF7E00"/>
-  <color name="orange3"                     value="#ce5c00"/>
   <color name="skyblue1"                    value="#7CC6F2"/>
-  <color name="skyblue2"                    value="#5898FF"/>
-  <color name="skyblue3"                    value="#5898FF"/>
   <color name="plum1"                       value="#ad7fa8"/>
-  <color name="plum2"                       value="#75507b"/>
-  <color name="plum3"                       value="#5c3566"/>
-  <color name="chocolate1"                  value="#e9b96e"/>
-  <color name="chocolate2"                  value="#c17d11"/>
-  <color name="chocolate3"                  value="#8f5902"/>
   <color name="scarletred1"                 value="#ef2929"/>
   <color name="scarletred2"                 value="#cc0000"/>
   <color name="scarletred3"                 value="#a40000"/>
@@ -65,11 +54,11 @@
   <color name="aluminium6"                  value="#2e3436"/>
 
   <!-- Global Settings -->
-  <style name="text"                        foreground="white" background="lethe"/>
+  <style name="text"                        foreground="white" background="lethe3"/>
   <style name="selection"                   foreground="aluminium1" background="darkblue"/>
   <style name="cursor"                      foreground="aluminium2"/>
   <style name="current-line"                background="lethe2"/>
-  <style name="line-numbers"                foreground="aluminium5" background="black"/>
+  <style name="line-numbers"                foreground="aluminium4" background="black"/>
   <style name="draw-spaces"                 foreground="aluminium4"/>
 
   <!-- Bracket Matching -->
@@ -77,10 +66,10 @@
   <style name="bracket-mismatch"            foreground="scarletred2" background="black"/>
 
   <!-- Right Margin -->
-  <style name="right-margin"                foreground="aluminium2" background="lethe2"/>
+  <style name="right-margin"                foreground="aluminium2" background="lethe3"/>
   
   <!-- Search Matching -->
-  <style name="search-match"                foreground="aluminium1" background="chameleon3"/>
+  <style name="search-match"                background="lethe"/>
 
   <!-- Comments -->
   <style name="def:comment"                 foreground="aluminium4"/>
@@ -89,7 +78,7 @@
 
   <!-- Constants -->
   <style name="def:constant"                foreground="#F27C80"/>
-  <style name="def:string"                  foreground="butter1" bold="false"/>
+  <style name="def:string"                  foreground="#F1FC8B" bold="false"/>
   <style name="def:special-char"            foreground="orange2"/>
   <style name="def:special-constant"        foreground="orange2"/>
   <style name="def:floating-point"          foreground="orange2"/>
@@ -98,7 +87,7 @@
   <style name="def:identifier"              foreground="skyblue1"/>
 
   <!-- Statements -->
-  <style name="def:statement"               foreground="white" background="#292E30"/>
+  <style name="def:statement"               foreground="#cc6666"/>
 
   <!-- Types -->
   <style name="def:type"                    foreground="chameleon1" bold="false"/> 
